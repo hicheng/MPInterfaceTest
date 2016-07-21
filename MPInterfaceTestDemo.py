@@ -107,4 +107,4 @@ class MPInterfaceTest:
 		self.excelRow = self.excelRow + 1
 		self.w.save('interfaceTestResult.xls')
 				
-print MPInterfaceTest().interfacesTest()
+MPInterfaceTest().interfacesTest()
